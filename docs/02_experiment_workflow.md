@@ -117,7 +117,7 @@ execute:
 ```bash
 py run_all_host(net)
 ```
-![圖片7](../images/圖片7.png) 
+![圖片7](../images/圖片7.png)  
 Expected behavior:  
 the numbers should increase continuously  
 If the values remain very small (for example, only single digits), check all components again.  
@@ -140,4 +140,5 @@ docker logs -f onos4
 This helps verify:  
 which controller is acting as master  
 whether the algorithm is being executed  
+
 whether system information looks normal  
